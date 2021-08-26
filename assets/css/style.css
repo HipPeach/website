@@ -12,9 +12,28 @@
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: "PeachesNCream-reg";
+  src: url("../fonts/PeachesNCream.otf");
+}
+@font-face {
+  font-family: "PeachesNCream-light";
+  src: url("../fonts/PeachesNCream-Light.otf");
+}
+@font-face {
+  font-family: "PeachesNCream-bold";
+  src: url("../fonts/PeachesNCream-Bold.otf");
+}
+@font-face {
+  font-family: "PeachesNCream-bolder";
+  src: url("../fonts/PeachesNCream-BigBold.otf");
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #fffcd6;
+  overflow-x: hidden;
 }
 
 a {
@@ -28,7 +47,11 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "PeachesNCream-bolder";
+}
+
+p{
+  font-family: "PeachesNCream-reg";
 }
 
 /*--------------------------------------------------------------
@@ -421,18 +444,47 @@ section {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.bg{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: url("../img/tilingBG.svg") 0% 0% repeat;
+  animation-name: MOVE-BG;
+  animation-duration: 1000s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  background-color: #ffdab9;
+  background-size: 400px;
+  width: 800%;
+
+}
+@keyframes MOVE-BG {
+  0% {
+    transform: translateX(0%) translateY(0%);
+  }
+
+  100% {
+    transform: translateX(-100%) translateY(0%);
+  }
+}
+
 .hero {
-  width: 100%;
-  height: 100vh;
-  background: url(../img/hero-bg.png) top center no-repeat;
-  background-size: cover;
+  width: 100vw;
+    height: 100vh;
+  
+  background-size:auto;
+
 }
 
 .hero h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #012970;
+  color: #6668af;
 }
 
 .hero h2 {
@@ -477,6 +529,7 @@ section {
   .hero {
     background-attachment: fixed;
   }
+
 }
 
 @media (max-width: 991px) {
@@ -491,6 +544,7 @@ section {
   .hero .hero-img img {
     width: 80%;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -506,6 +560,15 @@ section {
   .hero .hero-img img {
     width: 100%;
   }
+  @keyframes MOVE-BG {
+    0% {
+      transform: translateX(0%) translateY(0%);
+    }
+  
+    100% {
+      transform: translateX(-300%) translateY(0%);
+    }
+  }
 }
 
 /*--------------------------------------------------------------
@@ -515,7 +578,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f6f9ff;
+  
   padding: 40px;
 }
 
@@ -916,7 +979,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 40px 20px;
-  background: #fff;
+  background: #eae8c9;
   text-align: center;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   border-radius: 4px;
