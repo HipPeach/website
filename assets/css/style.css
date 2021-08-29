@@ -497,13 +497,13 @@ section {
   z-index: -1;
   background: url("../img/tilingBG.svg") 0% 0% repeat;
   animation-name: MOVE-BG;
-  animation-duration: 1000s;
+  animation-duration: 1200s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 
   background-color: #ffdab9;
   background-size: 400px;
-  width: 800%;
+  width: 50000px;
 
 }
 @keyframes MOVE-BG {
@@ -512,7 +512,7 @@ section {
   }
 
   100% {
-    transform: translateX(-100%) translateY(0%);
+    transform: translateX(-30000px) translateY(0%);
   }
 }
 
@@ -603,15 +603,6 @@ section {
   }
   .hero .hero-img img {
     width: 100%;
-  }
-  @keyframes MOVE-BG {
-    0% {
-      transform: translateX(0%) translateY(0%);
-    }
-  
-    100% {
-      transform: translateX(-300%) translateY(0%);
-    }
   }
 }
 
