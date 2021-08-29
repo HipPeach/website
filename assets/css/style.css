@@ -30,8 +30,9 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "PeachesNCream-bold";
   color: #444444;
+  font-size: 1.2rem;
   background-color: #fffcd6;
   overflow-x: hidden;
 }
@@ -58,7 +59,7 @@ p{
 
 
 .btn {
-  border: solid 2px black;
+  border: solid 3px black;
   outline: 0;
   font-family: "PeachesNCream-bolder";
   padding: 1rem 2rem;
@@ -79,7 +80,7 @@ p{
   background-color: pink;
   z-index: -1;
   border-radius: 0.35rem;
-  border: solid 2px black;
+  border: solid 3px black;
   transition: all 0.3s ease-in-out;
 }
 
@@ -2387,15 +2388,15 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Nunito", sans-serif;
+  font-family: "PeachesNCream-bold";
   margin-top: 3px;
 }
 
 .footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "PeachesNCream-light";
 }
 
 .footer .footer-top .social-links a {
@@ -2460,6 +2461,7 @@ section {
 
 .footer .footer-top .footer-contact p {
   line-height: 26px;
+  font-size: 18px;
 }
 
 .footer .copyright {
