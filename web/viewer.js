@@ -899,7 +899,7 @@ const PDFViewerApplication = {
       }
     }
 
-    this.setTitle(title);
+    
   },
 
   setTitle(title) {
@@ -1564,7 +1564,7 @@ const PDFViewerApplication = {
     this._contentLength ?? (this._contentLength = contentLength);
     console.log(`PDF ${pdfDocument.fingerprint} [${info.PDFFormatVersion} ` + `${(info.Producer || "-").trim()} / ${(info.Creator || "-").trim()}] ` + `(PDF.js: ${_pdfjsLib.version || "-"})`);
     let pdfTitle = info?.Title;
-    const metadataTitle = metadata?.get("dc:title");
+    const metadataTitle = "PeachPDF";
 
     if (metadataTitle) {
       if (metadataTitle !== "Untitled" && !/[\uFFF0-\uFFFF]/g.test(metadataTitle)) {
