@@ -180,7 +180,7 @@ section {
 }
 
 .breadcrumbs ol li + li::before {
-  display: inline-block;
+  display:  ;
   padding-right: 10px;
   color: #8894f6;
   content: "/";
@@ -874,7 +874,7 @@ section {
   border-radius: 4px;
   position: relative;
   margin-bottom: 25px;
-  display: inline-block;
+  display:  ;
   line-height: 0;
   transition: 0.3s;
 }
@@ -1077,7 +1077,7 @@ section {
 }
 
 .pricing .btn-buy {
-  display: inline-block;
+  display:  ;
   padding: 8px 40px 10px 40px;
   border-radius: 5px;
   color: #4154f1;
@@ -1154,7 +1154,7 @@ section {
 
 .portfolio #portfolio-flters li {
   cursor: pointer;
-  display: inline-block;
+  display:  ;
   padding: 8px 20px 10px 20px;
   font-size: 15px;
   font-weight: 600;
@@ -1720,7 +1720,7 @@ section {
 
 .contact .php-email-form .loading:before {
   content: "";
-  display: inline-block;
+  display:  ;
   border-radius: 50%;
   width: 24px;
   height: 24px;
@@ -1843,7 +1843,7 @@ section {
 .blog .entry .entry-meta a {
   color: #777777;
   font-size: 14px;
-  display: inline-block;
+  display:  ;
   line-height: 1;
 }
 
@@ -1857,7 +1857,7 @@ section {
 }
 
 .blog .entry .entry-content .read-more a {
-  display: inline-block;
+  display:  ;
   background: #4154f1;
   color: #fff;
   padding: 6px 20px;
@@ -1933,7 +1933,7 @@ section {
 }
 
 .blog .entry .entry-footer .cats li {
-  display: inline-block;
+  display:  ;
 }
 
 .blog .entry .entry-footer .tags {
@@ -1944,7 +1944,7 @@ section {
 }
 
 .blog .entry .entry-footer .tags li {
-  display: inline-block;
+  display:  ;
 }
 
 .blog .entry .entry-footer .tags li + li::before {
@@ -2262,7 +2262,7 @@ section {
 }
 
 .blog .sidebar .tags ul li {
-  display: inline-block;
+  display:  ;
 }
 
 .blog .sidebar .tags ul a {
@@ -2271,7 +2271,7 @@ section {
   padding: 6px 14px;
   margin: 0 6px 8px 0;
   border: 1px solid #d7e6ff;
-  display: inline-block;
+  display:  ;
   transition: 0.3s;
 }
 
@@ -2392,7 +2392,7 @@ section {
 
 .footer .footer-top .social-links a {
   font-size: 20px;
-  display: inline-block;
+  display:  ;
   color: rgba(1, 41, 112, 0.5);
   line-height: 0;
   margin-right: 10px;
@@ -2442,7 +2442,7 @@ section {
 .footer .footer-top .footer-links ul a {
   color: #013289;
   transition: 0.3s;
-  display: inline-block;
+  display:  ;
   line-height: 1;
 }
 
