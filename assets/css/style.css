@@ -40,7 +40,7 @@ body{
 }
 
 .siteWrapper{
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   position: absolute;
 
 }
