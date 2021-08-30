@@ -29,12 +29,20 @@
   src: url("../fonts/PeachesNCream-BigBold.otf");
 }
 
-body {
+body{
+  width: 100%;
   font-family: "PeachesNCream-bold";
   color: #444444;
   font-size: 1.2rem;
   background-color: #fffcd6;
   overflow-x: hidden;
+
+}
+
+.siteWrapper{
+  overflow-x: hidden;
+  position: absolute;
+
 }
 
 a {
@@ -409,7 +417,7 @@ section {
 }
 
 .navbar-mobile {
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   top: 0;
   right: 0;
