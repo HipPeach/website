@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
- .textLayer {
+.textLayer {
   position: absolute;
   left: 0;
   top: 0;
@@ -75,14 +75,13 @@
   z-index: -1;
   cursor: default;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .textLayer .endOfContent.active {
   top: 0;
 }
-
 
 .annotationLayer section {
   position: absolute;
@@ -217,8 +216,8 @@
 .annotationLayer .buttonWidgetAnnotation.checkBox input,
 .annotationLayer .buttonWidgetAnnotation.radioButton input {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   padding: 0;
 }
 
@@ -278,7 +277,6 @@
 .annotationLayer .fileAttachmentAnnotation {
   cursor: pointer;
 }
-
 
 .xfaLayer {
   position: absolute;
@@ -564,7 +562,7 @@
   border: var(--page-border);
   background-clip: content-box;
   -o-border-image: url(images/shadow.png) 9 9 repeat;
-     border-image: url(images/shadow.png) 9 9 repeat;
+  border-image: url(images/shadow.png) 9 9 repeat;
   background-color: rgba(255, 255, 255, 1);
 }
 
@@ -791,8 +789,7 @@
     --doorhanger-bg-color: #4fa6de;
     --doorhanger-border-color: rgba(39, 39, 43, 1);
     --doorhanger-hover-color: rgba(249, 249, 250, 1);
-    --doorhanger-hover-bg-color: #1e90ff
-    ;
+    --doorhanger-hover-bg-color: #1e90ff;
     --doorhanger-separator-color: rgba(92, 92, 97, 1);
     --overlay-button-bg-color: rgba(92, 92, 97, 1);
     --overlay-button-hover-bg-color: rgba(115, 115, 115, 1);
@@ -860,8 +857,8 @@ select {
 
 .pdfViewer.enablePermissions .textLayer span {
   -webkit-user-select: none !important;
-     -moz-user-select: none !important;
-          user-select: none !important;
+  -moz-user-select: none !important;
+  user-select: none !important;
   cursor: not-allowed;
 }
 
@@ -874,7 +871,7 @@ select {
   overflow: hidden;
   cursor: none;
   -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 #viewerContainer.pdfPresentationMode:fullscreen {
@@ -886,8 +883,8 @@ select {
   overflow: hidden;
   cursor: none;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .pdfPresentationMode:-webkit-full-screen a:not(.internalLink) {
@@ -944,8 +941,8 @@ html[dir="rtl"] #sidebarContainer {
   transition-duration: 0s;
   /* Prevent e.g. the thumbnails being selected when the sidebar is resized. */
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 #outerContainer.sidebarMoving #sidebarContainer,
@@ -1169,7 +1166,7 @@ html[dir="rtl"] #outerContainer.sidebarOpen #loadingBar {
     var(--progressBar-indeterminate-blend-color) 100px
   );
   -webkit-animation: progressIndeterminate 1s linear infinite;
-          animation: progressIndeterminate 1s linear infinite;
+  animation: progressIndeterminate 1s linear infinite;
 }
 
 .findbar,
@@ -1252,8 +1249,8 @@ html[dir="rtl"] .findbar .splitToolbarButton > .findNext {
 
 .findbar label {
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .findbar label:hover,
@@ -1536,8 +1533,8 @@ html[dir="rtl"] .splitToolbarButtonSeparator {
   font-size: 12px;
   line-height: 14px;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
   cursor: default;
   box-sizing: border-box;
 }
@@ -2009,8 +2006,8 @@ html[dir="rtl"] .toolbarField[type="checkbox"] {
   line-height: 14px;
   text-align: left;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
   cursor: default;
 }
 
@@ -2106,8 +2103,8 @@ a:focus > .thumbnail > .thumbnailSelectionRing,
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 html[dir="ltr"] .treeWithDeepNesting > .treeItem,
@@ -2133,8 +2130,8 @@ html[dir="rtl"] .treeItem > .treeItems {
   font-size: 13px;
   line-height: 15px;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
   white-space: normal;
   cursor: pointer;
 }
