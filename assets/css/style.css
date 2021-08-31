@@ -40,7 +40,8 @@ body {
 
 .siteWrapper {
   overflow-x: hidden !important;
-  position: absolute;
+  display: block;
+  overflow-anchor: none;
 }
 
 a {
@@ -421,7 +422,7 @@ section {
 }
 
 .navbar-mobile {
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   top: 0;
   right: 0;
@@ -460,7 +461,7 @@ section {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #ff6ac3;
+  color: #424242;
 }
 
 .navbar-mobile .getstarted {
@@ -630,7 +631,7 @@ section {
 }
 
 .about h3 {
-  font-size: 14px;
+  font-size: 50px;
   font-weight: 700;
   color: #4154f1;
   text-transform: uppercase;
