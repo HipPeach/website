@@ -524,7 +524,7 @@ section {
 
   background-color: #ffdab9;
   background-size: 400px;
-  width: 50000px;
+  width: 50000vw;
 }
 @keyframes MOVE-BG {
   0% {
@@ -541,6 +541,7 @@ section {
   height: 100vh;
 
   background-size: auto;
+  overflow-x: hidden;
 }
 
 .hero h1 {
