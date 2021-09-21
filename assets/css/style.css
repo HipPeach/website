@@ -39,10 +39,11 @@ body {
   
 }
 
+
 .siteWrapper {
   overflow-x: hidden !important;
   display: block;
-  overflow-anchor: none;
+ 
   width: 100%;
   
 }
@@ -508,23 +509,29 @@ section {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.bg {
+
+.bg-container{
+
   position: absolute;
   overflow: hidden;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  width: 100%;
+}
+
+.bg {
   z-index: -1;
-  background: url("../img/tilingBG.svg") 0% 0% repeat;
+  background: url(../img/tilingBG.svg) 0% 0% repeat;
   animation-name: MOVE-BG;
   animation-duration: 1200s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-
   background-color: #ffdab9;
   background-size: 400px;
   width: 50000vw;
+  display: block;
+  overflow: visible;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1600px;
 }
 @keyframes MOVE-BG {
   0% {
